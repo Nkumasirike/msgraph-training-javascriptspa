@@ -4,15 +4,15 @@
 // <msalConfigSnippet>
 const msalConfig = {
   auth: {
-    clientId: 'YOUR_APP_ID_HERE',
-    redirectUri: 'http://localhost:8080'
+    clientId: '8c6ca043-6a59-439c-a753-b7011ce76e92',
+    redirectUri: 'http://localhost:5501/'
   }
 };
 
 const msalRequest = {
   scopes: [
     'user.read',
-    'mailboxsettings.read',
+    'User.Read.All',
     'calendars.readwrite'
   ]
 }
